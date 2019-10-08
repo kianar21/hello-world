@@ -7,10 +7,21 @@
   <style>
     centre {
       text-align: center;
+      align-content: center;
+    }
+
+    body {
+      background-color: #8cebf9;
     }
 
     img {
       display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .apps {
+      display: inline-block;
       margin-left: auto;
       margin-right: auto;
     }
@@ -32,9 +43,10 @@
     <h2><iframe src="https://scratch.mit.edu/projects/328295574/embed" allowtransparency="true" width="485" height="402"
         frameborder="0" scrolling="no" allowfullscreen></iframe></h2>
 
-
-    <img src="images/appinventor.jpg" height="600">
-    <img src="images/mitAppCode.jpg" height="600">
+    <div>
+      <img class="apps" src="images/appinventor.jpg" height="600">
+      <img class="apps" src="images/mitAppCode.jpg" height="600">
+    </div>
     <p>This is my app that my group and I created. It is a virtual ping pong game where the player can play as many
       times
       as they want!</p>
